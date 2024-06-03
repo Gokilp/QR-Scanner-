@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
 }
 
 .box {
@@ -13,23 +14,30 @@ body {
 }
 
 .box #innerbox {
-  width: 275px;
-  height: 400px;
+  width: 350px;
+  height: 470px;
   background-color: White;
   border-radius: 20px;
 }
-.box #innerbox #Qr_img img {
-  width: 235px;
-  height: 200px;
-  padding-left: 20px;
+.box #innerbox #Qr_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 20px;
   padding-top: 20px;
-  border-radius: 30px;
+}
+
+.box #innerbox #Qr_img img {
+  width: 260px;
+  height: 250px;
+  margin: auto;
+  border-radius:30px;
 }
 
 .box #innerbox #heading {
   font-size: 17px;
-  align-items: center;
-  padding-left: 25px;
+  text-align: center;
 }
 
 .box #innerbox #heading2 {
@@ -41,7 +49,7 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
 }
 .attribution a {
